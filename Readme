@@ -1,0 +1,69 @@
+# Chat Application
+
+This is a real-time chat application developed using React.js for the frontend and Node.js for the backend. Users can join a chat room and engage in real-time conversations.
+
+## Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Getting Started](#getting-started)
+- [Frontend](#frontend)
+- [Backend](#backend)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- User authentication and authorization
+- Real-time bidirectional communication using WebSocket
+- Chat room functionality with message history
+- Responsive UI for various screen sizes
+
+## Requirements
+
+- Node.js and npm installed
+
+## Getting Started
+
+### Frontend
+
+  Navigate to the frontend directory:
+
+bash
+Copy code
+cd frontend
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000.
+
+Backend
+Navigate to the backend directory:
+
+bash
+Copy code
+cd backend
+Install dependencies:
+
+bash
+Copy code
+npm install
+Set up your MongoDB connection in server.js.
+
+Start the server:
+
+bash
+Copy code
+npm start
+The backend server will run on http://localhost:3001.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/chat-application.git
+   cd chat-application
